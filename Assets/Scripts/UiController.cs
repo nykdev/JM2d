@@ -29,5 +29,6 @@ public class UiController : MonoBehaviour
     public void ShuffleDice()
     {
         Shuffle = true;
+        GameManager.GetInstance().ResetDiceValues();
     }
 }

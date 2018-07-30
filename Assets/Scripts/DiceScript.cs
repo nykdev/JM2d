@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Dice : MonoBehaviour {
+public class DiceScript : MonoBehaviour {
 
     private Sprite[] _diceSides;
     private SpriteRenderer _rend;
 //    private int whosTurn = 1;
     private bool _coroutineAllowed = true;
+
+    public int DiceValue;
   //  private int randroll;
 
 	// Use this for initialization
 	private void Start () {
+	    
         _rend = GetComponent<SpriteRenderer>();
         _diceSides = Resources.LoadAll<Sprite>("DiceSides/");
         _rend.sprite = _diceSides[5];
@@ -37,6 +40,11 @@ public class Dice : MonoBehaviour {
             var randomDiceSide = Random.Range(0, 6);
             _rend.sprite = _diceSides[randomDiceSide];
             yield return new WaitForSeconds(0.05f);
+            if (i == rand)
+            {
+                DiceValue = randomDiceSide;
+
+            }
             UiController.GetInstance().Shuffle = false;
 
         }
@@ -53,4 +61,6 @@ public class Dice : MonoBehaviour {
         whosTurn *= -1;*/
         _coroutineAllowed = true;
     }
+
+ 
 }

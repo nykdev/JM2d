@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 289710335}
   - component: {fileID: 289710334}
   m_Layer: 0
-  m_Name: Dice1 (4)
+  m_Name: Dice5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -261,7 +261,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 289710332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.93, y: 0, z: 0}
+  m_LocalPosition: {x: 2.7, y: 0, z: 0}
   m_LocalScale: {x: 0.42210367, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -303,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &289710336
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -361,7 +362,7 @@ GameObject:
   - component: {fileID: 297296037}
   - component: {fileID: 297296036}
   m_Layer: 0
-  m_Name: Dice1 (3)
+  m_Name: Dice4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,7 +375,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 297296034}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.95, y: 0, z: 0}
+  m_LocalPosition: {x: 0.85, y: 0, z: 0}
   m_LocalScale: {x: 0.42210367, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -416,6 +417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &297296038
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -516,6 +518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &511282188
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -569,7 +572,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 511282185}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.75, y: 0, z: 0}
+  m_LocalPosition: {x: -4.5, y: 0, z: 0}
   m_LocalScale: {x: 0.42209998, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -609,7 +612,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215688, g: 0.2990935, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.15663938, g: 0.42842633, b: 0.6037736, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -739,7 +742,7 @@ GameObject:
   - component: {fileID: 734803770}
   - component: {fileID: 734803769}
   m_Layer: 0
-  m_Name: Dice1 (2)
+  m_Name: Dice3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -752,7 +755,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 734803767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.02, y: 0, z: 0}
+  m_LocalPosition: {x: -0.9, y: 0, z: 0}
   m_LocalScale: {x: 0.42210367, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -794,6 +797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &734803771
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -863,7 +867,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 838943082}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.47, z: 0}
+  m_LocalPosition: {x: 0, y: 3.97, z: 0}
   m_LocalScale: {x: 0.50625, y: 0.5, z: 1}
   m_Children:
   - {fileID: 511282189}
@@ -1027,7 +1031,7 @@ GameObject:
   - component: {fileID: 1167269305}
   - component: {fileID: 1167269304}
   m_Layer: 0
-  m_Name: Dice1 (1)
+  m_Name: Dice2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1040,7 +1044,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1167269302}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.99, y: 0, z: 0}
+  m_LocalPosition: {x: -2.7, y: 0, z: 0}
   m_LocalScale: {x: 0.42210367, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -1082,6 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &1167269306
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1128,81 +1133,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1461551259
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1461551261}
-  - component: {fileID: 1461551260}
-  m_Layer: 0
-  m_Name: wood
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1461551260
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1461551259}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 06818048c5478fb479315afd08b496b8, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 10.8, y: 19.2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1461551261
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1461551259}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.025, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1661203343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,7 +1202,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661203343}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.012, y: 1.41, z: 0}
+  m_LocalPosition: {x: 0.012, y: 1.97, z: 0}
   m_LocalScale: {x: 0.54011095, y: 0.56745166, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1362,6 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974140895}
   - component: {fileID: 1974140894}
+  - component: {fileID: 1974140896}
   m_Layer: 0
   m_Name: _GM
   m_TagString: Untagged
@@ -1394,6 +1325,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1974140896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1974140893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b338c23429d9e741b7fd992c900f001, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dice:
+  - {fileID: 511282187}
+  - {fileID: 1167269305}
+  - {fileID: 734803770}
+  - {fileID: 297296037}
+  - {fileID: 289710335}
+  - {fileID: 2135047801}
 --- !u!1 &2035265953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,7 +1389,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135047798
 GameObject:
@@ -1454,7 +1403,7 @@ GameObject:
   - component: {fileID: 2135047801}
   - component: {fileID: 2135047800}
   m_Layer: 0
-  m_Name: Dice1 (5)
+  m_Name: Dice6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1467,7 +1416,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2135047798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.73, y: 0, z: 0}
+  m_LocalPosition: {x: 4.5, y: 0, z: 0}
   m_LocalScale: {x: 0.42210367, y: 0.42209998, z: 0.93799996}
   m_Children: []
   m_Father: {fileID: 838943083}
@@ -1509,6 +1458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e381a6a732d02354b97db6505c1a0c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DiceValue: 0
 --- !u!212 &2135047802
 SpriteRenderer:
   m_ObjectHideFlags: 0

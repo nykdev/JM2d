@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f85b223-975f-4c90-919a-1f23f92cf004" name="Default" comment="" />
+    <list default="true" id="3f85b223-975f-4c90-919a-1f23f92cf004" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/JHANDA2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/JHANDA2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/Paan2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/Paan2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/burja2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/burja2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/chidi2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/chidi2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/hukum2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/hukum2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/itta2D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/itta2D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dice.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +30,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Dice.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs">
+      <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
               <folding>
-                <marker date="1532154989469" expanded="false" signature="6:44" ph="..." />
-                <marker date="1532154989469" expanded="true" signature="80:1359" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="227:285" ph="/* private int randroll; ... */" />
-                <marker date="1532154989469" expanded="true" signature="309:467" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="494:642" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="569:636" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="691:1357" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="823:1060" ph="{...}" />
-                <marker date="1532154989469" expanded="true" signature="1061:1317" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
+                <marker date="1532926899281" expanded="false" signature="6:78" ph="..." />
+                <marker date="1532926899281" expanded="true" signature="120:1748" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="334:435" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="361:412" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="481:527" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="551:770" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="575:765" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="734:761" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="802:959" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="835:956" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="980:1744" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="1013:1530" ph="{...}" />
+                <marker date="1532926899281" expanded="true" signature="1047:1526" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiceScript.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <marker date="1532925056318" expanded="false" signature="6:44" ph="..." />
+                <marker date="1532925056318" expanded="true" signature="86:1501" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="260:318" ph="/* private int randroll; ... */" />
+                <marker date="1532925056318" expanded="true" signature="342:506" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="533:681" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="608:675" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="730:1496" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="862:1199" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="1059:1132" ph="{...}" />
+                <marker date="1532925056318" expanded="true" signature="1200:1456" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
               </folding>
             </state>
           </provider>
@@ -34,15 +78,15 @@
       <file leaf-file-name="UiController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
-                <marker date="1532150387277" expanded="false" signature="6:78" ph="..." />
-                <marker date="1532150387277" expanded="true" signature="121:555" ph="{...}" />
-                <marker date="1532150387277" expanded="true" signature="224:365" ph="{...}" />
-                <marker date="1532150387277" expanded="true" signature="260:333" ph="{...}" />
-                <marker date="1532150387277" expanded="true" signature="448:485" ph="{...}" />
-                <marker date="1532150387277" expanded="true" signature="517:553" ph="{...}" />
+                <marker date="1532784756902" expanded="false" signature="6:78" ph="..." />
+                <marker date="1532784756902" expanded="true" signature="121:608" ph="{...}" />
+                <marker date="1532784756902" expanded="true" signature="224:365" ph="{...}" />
+                <marker date="1532784756902" expanded="true" signature="260:333" ph="{...}" />
+                <marker date="1532784756902" expanded="true" signature="448:485" ph="{...}" />
+                <marker date="1532784756902" expanded="true" signature="517:606" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -89,7 +133,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScreenResolution.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Space Odyssey/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -98,8 +143,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraScreenResolution.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UiController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RecordScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DiceScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -112,11 +160,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="153" />
-    <option name="y" value="132" />
-    <option name="width" value="1440" />
-    <option name="height" value="788" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-28" />
+    <option name="y" value="301" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,11 +172,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -179,11 +227,13 @@
       <workItem from="1531936918693" duration="1146000" />
       <workItem from="1531982935554" duration="1992000" />
       <workItem from="1532147751682" duration="3963000" />
+      <workItem from="1532782458757" duration="3262000" />
+      <workItem from="1532924229394" duration="2027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7101000" />
+    <option name="totallyTimeSpent" value="12390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,17 +245,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Errors In Solution" order="0" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Unit Tests" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="13" />
       <window_info anchor="right" id="Database" order="1" />
@@ -230,54 +281,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="56" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
+        <state relative-caret-position="420">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
-            <marker date="1532154989469" expanded="false" signature="6:44" ph="..." />
-            <marker date="1532154989469" expanded="true" signature="80:1359" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="227:285" ph="/* private int randroll; ... */" />
-            <marker date="1532154989469" expanded="true" signature="309:467" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="494:642" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="569:636" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="691:1357" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="823:1060" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="1061:1317" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
+            <marker date="1532926899281" expanded="false" signature="6:78" ph="..." />
+            <marker date="1532926899281" expanded="true" signature="120:1748" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="334:435" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="361:412" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="481:527" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="551:770" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="575:765" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="734:761" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="802:959" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="835:956" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="980:1744" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="1013:1530" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="1047:1526" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        <state relative-caret-position="30">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <marker date="1531986779651" expanded="false" signature="6:78" ph="..." />
-            <marker date="1531986779651" expanded="true" signature="122:1304" ph="{...}" />
-            <marker date="1531986779651" expanded="true" signature="171:1302" ph="{...}" />
-            <marker date="1531986779651" expanded="true" signature="177:361" ph="/* set the desired aspect ratio (the values in this example are ... */" />
-            <marker date="1531986779651" expanded="true" signature="431:512" ph="/* Debug.Log(Screen.height); ... */" />
-            <marker date="1531986779651" expanded="true" signature="886:1065" ph="{...}" />
-            <marker date="1531986779651" expanded="true" signature="1089:1299" ph="{...}" />
+            <marker date="1532925056318" expanded="false" signature="6:44" ph="..." />
+            <marker date="1532925056318" expanded="true" signature="86:1501" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="260:318" ph="/* private int randroll; ... */" />
+            <marker date="1532925056318" expanded="true" signature="342:506" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="533:681" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="608:675" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="730:1496" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="862:1199" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="1059:1132" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="1200:1456" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
-            <marker date="1532154989469" expanded="false" signature="6:44" ph="..." />
-            <marker date="1532154989469" expanded="true" signature="80:1359" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="227:285" ph="/* private int randroll; ... */" />
-            <marker date="1532154989469" expanded="true" signature="309:467" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="494:642" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="569:636" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="691:1357" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="823:1060" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="1061:1317" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
+            <marker date="1532784756902" expanded="false" signature="6:78" ph="..." />
+            <marker date="1532784756902" expanded="true" signature="121:608" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="224:365" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="260:333" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="448:485" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="517:606" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -310,38 +365,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Space Odyssey/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
           <folding>
-            <marker date="1532150387277" expanded="false" signature="6:78" ph="..." />
-            <marker date="1532150387277" expanded="true" signature="121:555" ph="{...}" />
-            <marker date="1532150387277" expanded="true" signature="224:365" ph="{...}" />
-            <marker date="1532150387277" expanded="true" signature="260:333" ph="{...}" />
-            <marker date="1532150387277" expanded="true" signature="448:485" ph="{...}" />
-            <marker date="1532150387277" expanded="true" signature="517:553" ph="{...}" />
+            <marker date="1532784756902" expanded="false" signature="6:78" ph="..." />
+            <marker date="1532784756902" expanded="true" signature="121:608" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="224:365" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="260:333" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="448:485" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="517:606" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        <state relative-caret-position="150">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
           <folding>
-            <marker date="1532154989469" expanded="false" signature="6:44" ph="..." />
-            <marker date="1532154989469" expanded="true" signature="80:1359" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="227:285" ph="/* private int randroll; ... */" />
-            <marker date="1532154989469" expanded="true" signature="309:467" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="494:642" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="569:636" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="691:1357" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="823:1060" ph="{...}" />
-            <marker date="1532154989469" expanded="true" signature="1061:1317" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
+            <marker date="1531986779651" expanded="false" signature="6:78" ph="..." />
+            <marker date="1531986779651" expanded="true" signature="122:1304" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="171:1302" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="177:361" ph="/* set the desired aspect ratio (the values in this example are ... */" />
+            <marker date="1531986779651" expanded="true" signature="431:512" ph="/* Debug.Log(Screen.height); ... */" />
+            <marker date="1531986779651" expanded="true" signature="886:1065" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="1089:1299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScreenResolution.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1532148946157" expanded="false" signature="6:44" ph="..." />
+            <marker date="1532148946157" expanded="true" signature="98:673" ph="{...}" />
+            <marker date="1532148946157" expanded="true" signature="294:667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <marker date="1531986779651" expanded="false" signature="6:78" ph="..." />
+            <marker date="1531986779651" expanded="true" signature="122:1304" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="171:1302" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="177:361" ph="/* set the desired aspect ratio (the values in this example are ... */" />
+            <marker date="1531986779651" expanded="true" signature="431:512" ph="/* Debug.Log(Screen.height); ... */" />
+            <marker date="1531986779651" expanded="true" signature="886:1065" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="1089:1299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
+    <entry file="file://$PROJECT_DIR$/../../Space Odyssey/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraScreenResolution.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1532148946157" expanded="false" signature="6:44" ph="..." />
+            <marker date="1532148946157" expanded="true" signature="98:673" ph="{...}" />
+            <marker date="1532148946157" expanded="true" signature="294:667" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dice.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RecordScript.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraAdjust.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+          <folding>
+            <marker date="1531986779651" expanded="false" signature="6:78" ph="..." />
+            <marker date="1531986779651" expanded="true" signature="122:1304" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="171:1302" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="177:361" ph="/* set the desired aspect ratio (the values in this example are ... */" />
+            <marker date="1531986779651" expanded="true" signature="431:512" ph="/* Debug.Log(Screen.height); ... */" />
+            <marker date="1531986779651" expanded="true" signature="886:1065" ph="{...}" />
+            <marker date="1531986779651" expanded="true" signature="1089:1299" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DiceScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <marker date="1532925056318" expanded="false" signature="6:44" ph="..." />
+            <marker date="1532925056318" expanded="true" signature="86:1501" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="260:318" ph="/* private int randroll; ... */" />
+            <marker date="1532925056318" expanded="true" signature="342:506" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="533:681" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="608:675" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="730:1496" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="862:1199" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="1059:1132" ph="{...}" />
+            <marker date="1532925056318" expanded="true" signature="1200:1456" ph="/* GameControl.diceSideThrown = randomDiceSide + 1; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UiController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <marker date="1532784756902" expanded="false" signature="6:78" ph="..." />
+            <marker date="1532784756902" expanded="true" signature="121:608" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="224:365" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="260:333" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="448:485" ph="{...}" />
+            <marker date="1532784756902" expanded="true" signature="517:606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <marker date="1532926899281" expanded="false" signature="6:78" ph="..." />
+            <marker date="1532926899281" expanded="true" signature="120:1748" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="334:435" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="361:412" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="481:527" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="551:770" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="575:765" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="734:761" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="802:959" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="835:956" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="980:1744" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="1013:1530" ph="{...}" />
+            <marker date="1532926899281" expanded="true" signature="1047:1526" ph="{...}" />
           </folding>
         </state>
       </provider>
