@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f85b223-975f-4c90-919a-1f23f92cf004" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JM2d/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/JHANDA2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/JHANDA2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/Paan2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/Paan2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/burja2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/burja2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/chidi2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/chidi2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/hukum2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/hukum2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/itta2D.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DiceSides/itta2D.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dice.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dice.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="3f85b223-975f-4c90-919a-1f23f92cf004" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,12 +209,12 @@
       <workItem from="1531982935554" duration="1992000" />
       <workItem from="1532147751682" duration="3963000" />
       <workItem from="1532782458757" duration="3262000" />
-      <workItem from="1532924229394" duration="2027000" />
+      <workItem from="1532924229394" duration="2626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12390000" />
+    <option name="totallyTimeSpent" value="12989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,8 +226,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Errors In Solution" order="0" />
