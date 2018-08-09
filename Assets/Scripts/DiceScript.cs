@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DiceScript : MonoBehaviour {
 
     private Sprite[] _diceSides;
-    private SpriteRenderer _rend;
+    private Image _rend;
 //    private int whosTurn = 1;
     private bool _coroutineAllowed = true;
 
@@ -14,7 +15,7 @@ public class DiceScript : MonoBehaviour {
 	// Use this for initialization
 	private void Start () {
 	    
-        _rend = GetComponent<SpriteRenderer>();
+        _rend = GetComponent<Image>();
         _diceSides = Resources.LoadAll<Sprite>("DiceSides/");
         _rend.sprite = _diceSides[5];
 	    
